@@ -35,9 +35,9 @@
 
 ## Steps made for this Project
 - [Exploratory Data Analysis (EDA)](https://github.com/colinryanx/Hotel-Performance-Project/blob/main/Hotel%20Performance%20Analysis.md): Visualize and summarize data to identify patterns and insights.
- - SQL
+  - SQL
 - [Reporting and Visualization](https://github.com/colinryanx/Hotel-Performance-Project/blob/main/Hotel%20Performance%20Dashboard.pdf): Create dashboards and reports to present findings and insights to stakeholders.
- - Power BI
+  - Power BI
 
 ## Dashboard
 ![dashboard](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/0ab1f31d-7d1d-4acb-a83f-9d20b06f87c0)
