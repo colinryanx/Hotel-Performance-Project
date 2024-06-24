@@ -4,7 +4,7 @@
  The hotel industry is highly competitive, with customer satisfaction and revenue management being critical to success. Understanding the patterns and factors that influence hotel bookings, cancellations, and overall revenue can provide valuable insights for better decision-making and strategic planning. This dataset contains historical booking information for a city hotel and a resort hotel, including details about booking cancellations, customer demographics, booking channels, and other relevant attributes.
 
 ## Objective
- To analyze the historical booking data to identify key factors affecting hotel revenue, booking patterns, and customer behavior. The goal is to derive actionable insights that can help in improving revenue management, reducing cancellations, and enhancing overall customer experience.
+ To analyze the historical booking data to identify key factors affecting hotel revenue, booking patterns, and customer behavior. The goal is to derive actionable insights that can help in improving revenue management and enhancing overall customer experience.
 
 ## Data Columns
 - **hotel**: Type of hotel (City Hotel or Resort Hotel)
