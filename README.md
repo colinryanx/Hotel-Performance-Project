@@ -195,7 +195,7 @@ ORDER BY number_of_bookings DESC
 ***
 
 ### Combine ALL Tables to a single table for connection to Power BI
-#### 10. DENORMALIZE DATA TO optimize data retrieval and improve performance
+#### 10. Denormalize tables to optimize data retrieval and improve performance
 ````sql
 WITH hotel_data AS (
 	SELECT * FROM dbo.[hotel2018]
