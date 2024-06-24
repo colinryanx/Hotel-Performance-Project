@@ -34,7 +34,7 @@
 - reservation_status_date: Date of last status change
 
 ### Steps made for this Project
-- Exploratory Data Analysis (EDA): Visualize and summarize data to identify patterns and insights.
-- Reporting and Visualization: Create dashboards and reports to present findings and insights to stakeholders.
+- [Exploratory Data Analysis (EDA)](https://github.com/colinryanx/Hotel-Performance-Project/blob/main/Hotel%20Performance%20Analysis.md): Visualize and summarize data to identify patterns and insights.
+- [Reporting and Visualization]: Create dashboards and reports to present findings and insights to stakeholders.
 
 [DATASET](https://www.kaggle.com/datasets/govindkrishnadas/hotel-revenue) from [GOVIND KRISHNADAS](https://www.kaggle.com/govindkrishnadas/)
