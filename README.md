@@ -2,6 +2,7 @@
 Microsoft SQL Server was used on this project.
 
 ## Data Exploration
+
 ### Quick Insights
 
 #### 1. Total Number of Bookings from 2018-2020
@@ -18,6 +19,8 @@ SELECT
 FROM hotel_data
 ````
 **Output:**
+
+![1](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/fd86e8a8-5595-49d0-a74d-24afdc823946)
 
 ***
 
@@ -37,6 +40,8 @@ FROM hotel_data
 GROUP BY hotel
 ````
 **Output:**
+
+![2](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/77ac1e79-0e6f-49a8-b6b6-8819ecb4d322)
 
 ***
 
@@ -59,6 +64,8 @@ ORDER BY total_bookings DESC
 ````
 **Output:**
 
+![3](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/0af75f7a-2a4c-4236-9716-2585592dfd7d)
+
 ***
 
 #### 4. Distribution of Guest Nationalities (Top 20)
@@ -79,6 +86,8 @@ ORDER BY guest_count DESC
 ````
 **Output:**
 
+![4](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/001adee7-44e9-491d-8533-1ef0d4f96eb0)
+
 ***
 
 #### 5. Repeat Guests vs. New Guests
@@ -97,6 +106,8 @@ FROM hotel_data
 GROUP BY is_repeated_guest
 ````
 **Output:**
+
+![5](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/a2449b53-a4bd-4395-8047-912e9085eb49)
 
 ***
 
@@ -133,6 +144,8 @@ ORDER BY
 ````
 **Output:**
 
+![6](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/e988fa88-d7b8-42fa-9115-9d66301be1c9)
+
 ***
 
 #### 7. Revenue per Hotel Type (Discount amount and Meal pricing not Accounted)
@@ -151,6 +164,8 @@ FROM hotel_data
 GROUP BY hotel
 ````
 **Output:**
+
+![7](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/cf6e8029-c011-4e4f-8fbc-5781342aa7a8)
 
 ***
 
@@ -171,6 +186,8 @@ GROUP BY arrival_date_year
 ````
 **Output:**
 
+![8](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/2842820c-ad99-45de-b361-e72a01eddcc2)
+
 ***
 
 #### 9. Most Booked Room Type
@@ -190,6 +207,8 @@ GROUP BY reserved_room_type
 ORDER BY number_of_bookings DESC
 ````
 **Output:**
+
+![9](https://github.com/colinryanx/Hotel-Performance-Project/assets/171652558/869cf0c3-7fff-45d0-b35f-43fbc42a7951)
 
 ***
 
