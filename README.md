@@ -229,6 +229,5 @@ ON hotel_data.market_segment = dbo.[hotel_market_segment].[market_segment]
 LEFT JOIN dbo.[hotel_meal_cost]
 ON hotel_data.meal = dbo.[hotel_meal_cost].[meal]
 ````
-**Output:**
 
 ***
