@@ -61,8 +61,7 @@ ORDER BY total_bookings DESC
 
 ***
 
-#### 4. Distribution of Guest Nationalities
-top 20
+#### 4. Distribution of Guest Nationalities (Top 20)
 ````sql
 WITH hotel_data AS (
 	SELECT * FROM dbo.[hotel2018]
