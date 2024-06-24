@@ -19,6 +19,7 @@ FROM hotel_data
 ````
 **Output:**
 
+***
 
 #### 2. Total Number of Bookings per Hotel Type
 ````sql
@@ -36,6 +37,8 @@ FROM hotel_data
 GROUP BY hotel
 ````
 **Output:**
+
+***
 
 #### 3. Number of Bookings per Month 
 To see which months have the highest and lowest bookings
@@ -56,6 +59,8 @@ ORDER BY total_bookings DESC
 ````
 **Output:**
 
+***
+
 #### 4. Distribution of Guest Nationalities
 top 20
 ````sql
@@ -75,6 +80,8 @@ ORDER BY guest_count DESC
 ````
 **Output:**
 
+***
+
 #### 5. Repeat Guests vs. New Guests
 ````sql
 WITH hotel_data AS (
@@ -91,6 +98,8 @@ FROM hotel_data
 GROUP BY is_repeated_guest
 ````
 **Output:**
+
+***
 
 #### 6. Average Daily Rate (ADR) per Month
 ````sql
@@ -125,6 +134,8 @@ ORDER BY
 ````
 **Output:**
 
+***
+
 #### 7. Revenue per Hotel Type (Discount amount and Meal pricing not Accounted)
 ````sql
 WITH hotel_data AS (
@@ -142,6 +153,8 @@ GROUP BY hotel
 ````
 **Output:**
 
+***
+
 #### 8. Revenue per Year
 ````sql
 WITH hotel_data AS (
@@ -158,6 +171,8 @@ FROM hotel_data
 GROUP BY arrival_date_year
 ````
 **Output:**
+
+***
 
 #### 9. Most Booked Room Type
 ````sql
@@ -177,6 +192,8 @@ ORDER BY number_of_bookings DESC
 ````
 **Output:**
 
+***
+
 ### COMBINE ALL TABLES TO A SINGLE TABLE FOR CONNECTION TO POWER BI
 #### 10. DENORMALIZE DATA TO optimize data retrieval and improve performance
 ````sql
@@ -195,3 +212,5 @@ LEFT JOIN dbo.[hotel_meal_cost]
 ON hotel_data.meal = dbo.[hotel_meal_cost].[meal]
 ````
 **Output:**
+
+***
